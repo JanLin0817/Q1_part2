@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME      = 'n01742406/three-pages'
+        IMAGE_NAME      = 'chris07l/three-pages'
         DOCKERHUB_CREDS = credentials('dockerhub-creds')
     }
 
